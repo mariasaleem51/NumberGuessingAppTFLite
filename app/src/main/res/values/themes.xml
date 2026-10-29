@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.NumberGuessingApp" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here -->
+    </style>
+
+    <!-- Transparent Splash Theme taake system ka koi solid box ya color show na ho -->
+    <style name="Theme.App.Starting" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
