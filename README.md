@@ -1,45 +1,63 @@
 # NumberGuessing App TFLite
 
 ## 1. Project Overview
-NumberGuessing App TFLite is an Android application developed using Android Studio. It uses TensorFlow Lite (TFLite) to run a machine learning model on an Android device for number recognition or prediction, depending on the integrated model.
+NumberGuessing App TFLite is an Android application that uses Artificial Intelligence (AI) and TensorFlow Lite (TFLite) to recognize handwritten digits.
+
+Users can draw a digit on the screen, and the application analyzes the drawing and predicts which number it represents.
 
 ## 2. Features
-- Simple Android user interface.
-- On-device machine learning using TensorFlow Lite.
-- Displays the model's prediction.
-- Designed as a mini project for learning AI integration in Android.
+- Draw handwritten digits on the screen.
+- Predict the drawn digit using a machine learning model.
+- Display the predicted number.
+- Show the prediction confidence score.
+- Display accuracy or prediction-related information, as implemented in the application.
+- Run AI inference directly on the Android device using TensorFlow Lite.
 
 ## 3. Technologies Used
 - Android Studio
-- Kotlin or Java, depending on the project implementation
+- Kotlin or Java, according to the source code
 - TensorFlow Lite
 - Gradle
+- Machine Learning for handwritten digit recognition
 
 ## 4. Prerequisites
 - Android Studio
-- Android SDK compatible with the project
-- A compatible Android device or emulator
-- Internet connection for downloading dependencies during the initial build, if required
+- A compatible Android SDK
+- An Android device or emulator
+- Internet access for initial dependency downloads, if required
 
 ## 5. Installation
-1. Download or clone the project from GitHub.
+1. Clone or download this repository from GitHub.
 2. Open Android Studio.
-3. Select **Open** and choose the extracted project folder.
-4. Allow Gradle Sync to complete.
+3. Select **Open** and choose the project folder.
+4. Wait for Gradle Sync to finish.
 5. Connect an Android device or start an emulator.
 
 ## 6. How to Run
 1. Open the project in Android Studio.
-2. Wait for Gradle Sync to finish.
-3. Select the app run configuration.
-4. Click **Run**.
-5. Use the app and observe the prediction produced by the integrated model.
+2. Allow Gradle Sync to complete.
+3. Run the application on a compatible device or emulator.
+4. Draw a digit on the drawing area.
+5. Tap the prediction button, if the app provides one.
+6. View the predicted digit and confidence score.
+7. Repeat the test with different handwritten digits.
 
 ## 7. AI Model
-The application is intended to integrate a TensorFlow Lite model for on-device inference. The model file, input format, output interpretation, and prediction accuracy should be documented according to the actual implementation.
+The application uses a TensorFlow Lite model to process handwritten digit input and predict the corresponding digit.
 
-## 8. Testing
-Test the application with suitable inputs and record the model's predictions. Add screenshots of the application interface and prediction results after testing.
+The model's input format, output interpretation, and supported digit range depend on the actual model integrated into the project.
 
-## 9. Author
-Student project developed for the AI-Based Mini Application Development assignment.
+## 8. Testing and Results
+Test the application using different handwritten digits, including clear and differently written examples.
+
+Capture screenshots showing:
+- The application interface.
+- A handwritten digit drawn by the user.
+- The predicted digit and confidence score.
+- Results for multiple test inputs.
+
+## 9. Limitations
+Prediction results may vary depending on handwriting quality, drawing size, input preprocessing, and the trained model.
+
+## 10. Conclusion
+This project demonstrates how a TensorFlow Lite machine learning model can be integrated into an Android application to recognize handwritten digits and display prediction results.
